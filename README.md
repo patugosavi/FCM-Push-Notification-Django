@@ -2,4 +2,4 @@
 Push notification
 
 
-![alt text](https://github.com/patugosavi/FCM-Push-Notification/blob/master/Screenshot_20221111-173727.png)
+![alt text](https://github.com/patugosavi/FCM-Push-Notification-Django/blob/main/pushnotification/sendnotification.png)
