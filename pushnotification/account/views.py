@@ -18,7 +18,7 @@ def sendNotification(request):
         title = request.POST['title']
         msg = request.POST['msg']
         
-        tokens = ["dE9BDRuKRJa31AmN6GoapE:APA91bE5vZzxt8_-o_iCRZlSWlrP4CX-TE635DCkAsu5guvYnUXVRFLl-S6Ek2GPfTcx-GqKAJKHi4vt1S3xuF2GFXtXZAxZO9B2aSiqa4gSaHwgh4NsO7cqO5HvxAH4K_JR8SZYY37y","fjheUNuJS2W27sgO6j6nn3:APA91bFQu4jWYa1Z4kvDtiVtpmY_dtMUm3EsE2WL88hEiRTmThdiJamdlQO-_bwcPPo7Iov9NZR_aYENczOo-iHlPWyHE-_qLinpqQPJBqXNX71cCgNUsCOt27Zm60-hg4cxCbVqLdqq"]
+        tokens = ["dE9BDRuKRJa31AmN6GoapE:APA9fgdfgd1bE5vZzxt8_-o_iCRZlSWlrP4CX-TE635DCkAsu5guvYnUXVRFLldfgdfg-S6Ek2GPfTcx-GqKAJKHi4vt1S3xuF2GFXtXZAxZO9B2aSiqa4gSaHwgh4NsO7cqO5HvxAH4K_JR8SZYY37y","fjheUNuJS2W27sgO6jdfgdfg6nn3:APA91bFdfgdfgdfgdfQu4jWYa1Z4kvDtiVtpmY_dtMUdfgdfgdfgfdm3EsE2WL88hEiRTmThdiJamdfgdfgdfgdlQO-_bwcPPo7Idfgdfgov9NZR_aYENcgdfgdfgzOo-iHldfgdfPWyHE-_qLinpqQPJBqdfgdfgXNX71cCgNUsCOt27Zm60-hg4cxCbVqLdqq"]
 
         message = messaging.MulticastMessage(
             notification=messaging.Notification(
